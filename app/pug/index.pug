@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        link(rel="stylesheet", href="./css/main.css")
+        title Document
+    body
+        main
+            header.header
+                .container 
+                    .header-wrapper
+                        nav.nav
+                            .burger
+                                span
+                                span
+                                span
+                            a.nav__link(href='#') Rooms
+                            a.nav__link(href='#') Booking
+                            a.nav__link(href='#') Contacts
+                        .logo
+                            img(src="./img/logo.svg", alt="", )
+                        .nav-details
+                            a.nav__link(href="tel:+43 660 605 0000") +43 660 605 0000
+                            a.shop-basket(href='#')
+                                span.number 2
+                            .language
+                                span.language__de DE
+                                span.language__en.active EN
+            section.rooms
+                .container
+                    .rooms-wrapper
+                        .rooms-card
+                            figure
+                                img(src="./img/room-1.jpg", alt="")
+                                figcaption.rooms-details
+                                    h3.rooms-card__name Da Vinci
+                                    h4.rooms-card__action Mystery
+                                .rooms-card__gradient
+                        .rooms-card
+                            figure
+                                img(src="./img/room-2.jpg", alt="")
+                                figcaption.rooms-details
+                                    h3.rooms-card__name Mission Belvedere
+                                    h4.rooms-card__action Action
+                                .rooms-card__gradient
+                        .rooms-card.rooms-card--active
+                            figure
+                                img(src="./img/room-3.jpg", alt="")
+                                .rooms-card-limit
+                                    span.safe 20% off
+                                    .date
+                                        span.date-title Limited-time Deal
+                                        span.date-number 03:34:12
+                                figcaption.rooms-details
+                                    h3.rooms-card__name School of magic
+                                    h4.rooms-card__action.rooms-card__action--before Adventure
+                                .rooms-card__gradient
+                        .rooms-card
+                            figure
+                                img(src="./img/room-4.jpg", alt="")
+                                figcaption.rooms-details
+                                    h3.rooms-card__name The Unknown
+                                    h4.rooms-card__action.rooms-card__action--before Horror with live actor
+                                .rooms-card__gradient
+                        .rooms-card
+                            figure
+                                img(src="./img/room-5.jpg", alt="")
+                                figcaption.rooms-details
+                                    h3.rooms-card__name  The Nun
+                                    h4.rooms-card__action.rooms-card__action--before Horror with live actor
+                                .rooms-card__gradient
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js")
+        script(src="./js/main.js")

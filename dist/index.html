@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="./css/main.css"/>
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <div class="container"> 
+          <div class="header-wrapper">
+            <nav class="nav">
+              <div class="burger"><span></span><span></span><span></span></div><a class="nav__link" href="#">Rooms</a><a class="nav__link" href="#">Booking</a><a class="nav__link" href="#">Contacts</a>
+            </nav>
+            <div class="logo"><img src="./img/logo.svg" alt=""/></div>
+            <div class="nav-details"><a class="nav__link" href="tel:+43 660 605 0000">+43 660 605 0000</a><a class="shop-basket" href="#"><span class="number">2</span></a>
+              <div class="language"><span class="language__de">DE</span><span class="language__en active">EN</span></div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="rooms">
+        <div class="container">
+          <div class="rooms-wrapper">
+            <div class="rooms-card">
+              <figure><img src="./img/room-1.jpg" alt=""/>
+                <figcaption class="rooms-details">
+                  <h3 class="rooms-card__name">Da Vinci</h3>
+                  <h4 class="rooms-card__action">Mystery</h4>
+                </figcaption>
+                <div class="rooms-card__gradient"></div>
+              </figure>
+            </div>
+            <div class="rooms-card">
+              <figure><img src="./img/room-2.jpg" alt=""/>
+                <figcaption class="rooms-details">
+                  <h3 class="rooms-card__name">Mission Belvedere</h3>
+                  <h4 class="rooms-card__action">Action</h4>
+                </figcaption>
+                <div class="rooms-card__gradient"></div>
+              </figure>
+            </div>
+            <div class="rooms-card rooms-card--active">
+              <figure><img src="./img/room-3.jpg" alt=""/>
+                <div class="rooms-card-limit"><span class="safe">20% off</span>
+                  <div class="date"><span class="date-title">Limited-time Deal</span><span class="date-number">03:34:12</span></div>
+                </div>
+                <figcaption class="rooms-details">
+                  <h3 class="rooms-card__name">School of magic</h3>
+                  <h4 class="rooms-card__action rooms-card__action--before">Adventure</h4>
+                </figcaption>
+                <div class="rooms-card__gradient"></div>
+              </figure>
+            </div>
+            <div class="rooms-card">
+              <figure><img src="./img/room-4.jpg" alt=""/>
+                <figcaption class="rooms-details">
+                  <h3 class="rooms-card__name">The Unknown</h3>
+                  <h4 class="rooms-card__action rooms-card__action--before">Horror with live actor</h4>
+                </figcaption>
+                <div class="rooms-card__gradient"></div>
+              </figure>
+            </div>
+            <div class="rooms-card">
+              <figure><img src="./img/room-5.jpg" alt=""/>
+                <figcaption class="rooms-details">
+                  <h3 class="rooms-card__name"> The Nun</h3>
+                  <h4 class="rooms-card__action rooms-card__action--before">Horror with live actor</h4>
+                </figcaption>
+                <div class="rooms-card__gradient"></div>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
